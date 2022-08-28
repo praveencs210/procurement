@@ -25,6 +25,12 @@
         .bg-gradient-dark {
             background-image: linear-gradient(195deg, #32356a 0%, #191919 100%);
         }
+        .sticky-card{
+            top: 78px;
+            border-top-right-radius: 0;
+            border-top-left-radius: 0;
+            margin-top: -35px;
+        }
     </style>
 </head>
 
@@ -302,7 +308,7 @@
 <!--Header-->
 <header>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators z-index-2 mb-6">
+        <ol class="carousel-indicators z-index-2 mb-5">
             <li data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active"
                 aria-current="true"></li>
             <li data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class=""></li>
@@ -367,16 +373,16 @@
 </header>
 
 <!--Header Card-->
-<div class="card shadow-lg mt-n5 mx-4 mb-4 position-sticky top-9 z-index-2 d-none d-md-block">
+<div class="card shadow-lg  mx-4 mb-4 position-sticky z-index-2 d-none d-md-block sticky-card">
     <div class="card-body p-0">
         <div class="container-fluid px-0">
             <div class="row">
                 <div class="col-lg-3 col-sm-6 mb-sm-0 mb-4">
-                    <div class="info-horizontal border-radius-xl p-4 d-block d-md-flex justify-content-center">
+                    <div class="info-horizontal border-radius-xl p-3 d-block d-md-flex justify-content-center">
                         <i class="material-icons text-3xl text-gradient text-info">redeem</i>
                         <div class="description ps-0 ps-md-3">
                             <a href="#lorem-1">
-                                <h5>
+                                <h5 class="m-0">
                                     Customized
                                 </h5>
                             </a>
@@ -384,31 +390,31 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 px-lg-1">
-                    <div class="info-horizontal border-radius-xl p-4 d-block d-md-flex justify-content-center">
+                    <div class="info-horizontal border-radius-xl p-3 d-block d-md-flex justify-content-center">
                         <i class="material-icons text-3xl text-gradient text-info">redeem</i>
                         <div class="description ps-0 ps-md-3">
                             <a href="#lorem-2">
-                                <h5>Automated</h5>
+                                <h5 class="m-0">Automated</h5>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 mt-lg-0 mt-4">
-                    <div class="info-horizontal border-radius-xl p-4 d-block d-md-flex justify-content-center">
+                    <div class="info-horizontal border-radius-xl p-3 d-block d-md-flex justify-content-center">
                         <i class="material-icons text-3xl text-gradient text-info">bookmarks</i>
                         <div class="description ps-0 ps-md-3">
                             <a href="#lorem-3">
-                                <h5>Assign</h5>
+                                <h5 class="m-0">Assign</h5>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 mt-lg-0 mt-4">
-                    <div class="info-horizontal border-radius-xl p-4 d-block d-md-flex justify-content-center">
+                    <div class="info-horizontal border-radius-xl p-3 d-block d-md-flex justify-content-center">
                         <i class="material-icons text-3xl text-gradient text-info">bookmarks</i>
                         <div class="description ps-0 ps-md-3">
                             <a href="#lorem-4">
-                                <h5>Procurement</h5>
+                                <h5 class="m-0">Procurement</h5>
                             </a>
                         </div>
                     </div>
